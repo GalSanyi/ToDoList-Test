@@ -1,0 +1,37 @@
+.table {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.table-header {
+  display: flex;
+  width: 400px;
+  background: grey;
+  padding: 0;
+}
+
+.table-row {
+  display: flex;
+  width: 100%;
+  padding: 0;
+}
+
+.table-data,
+.header__item {
+  flex: 1 1 20%;
+  text-align: center;
+}
+
+.header__item {
+  text-transform: uppercase;
+}
+
+.filter__link {
+  color: white;
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100px;
+}
